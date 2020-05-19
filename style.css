@@ -237,13 +237,9 @@ h1::after
 
 @media only screen and (max-width:768px)
 {
-	h1{
+	h1,h2,h3,h4,h5{
 		font-size: 180%;
 	  }
-	h2
-	{
-		font-size: 180%;
-	}
 	.main-nav{display:none;}
 	.mobile-icon{
 		display: inline-block;
@@ -265,7 +261,7 @@ h1::after
 	.around-btn1{
 		margin-bottom: 20px;
 	}
-	h1{font-size: 160%;}
+	h1,h2,h3,h4,h5{font-size: 160%;}
 
 }
 
