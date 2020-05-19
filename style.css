@@ -215,6 +215,8 @@ h1::after
 	color: #007bff;
 	font-weight: bold;
 }
+
+html { font-size:100%; }
 @keyframes colorchangehead
 {
 	0%{color:yellow;}
@@ -264,4 +266,6 @@ h1::after
 	h1,h2,h3,h4,h5{font-size: 160%;}
 
 }
-
+@media (min-width: 640px) { body {font-size:1rem;} } 
+@media (min-width:960px) { body {font-size:1.2rem;} } 
+@media (min-width:1100px) { body {font-size:1.5rem;} }
